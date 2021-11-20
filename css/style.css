@@ -1,0 +1,117 @@
+body {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Bebas Neue", cursive;
+  padding-top: 4.5rem;
+  height: 200vh;
+}
+
+/*-----------NavBar-----------*/
+nav {
+  background-color: rgba(0, 0, 0, 0.65);
+  font-weight: 500;
+}
+.navButtonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navButtonStyle:focus {
+  box-shadow: none;
+}
+header span {
+  color: #50b25b;
+  transition: 0.5s ease all;
+}
+
+header span:hover {
+  color: #bfffc7;
+}
+header span:active {
+  color: #bfffc7;
+}
+header a {
+  color: #50b25b;
+  transition: 0.5s ease all;
+}
+header a:hover {
+  color: #bfffc7;
+}
+header a:active {
+  color: #bfffc7;
+}
+.navLink-buttons {
+  background: #50b25b;
+  border-radius: 50px;
+  color: #1f1f1f;
+  transition: 0.5s ease all;
+}
+.navLink-buttons:active {
+  background: #bfffc7;
+  color: #1f1f1f;
+}
+
+.navLink-buttons:hover {
+  background: #bfffc7;
+  color: #1f1f1f;
+}
+.logo {
+  color: #50b25b;
+}
+/*-----------Log In-----------*/
+.login-section {
+  margin: 0 auto;
+  margin-top: 25%;
+}
+.login-button {
+  background-color: #50b25b;
+}
+.login-button:active {
+  background: #bfffc7;
+  color: white;
+}
+
+.login-button:hover {
+  transform: scaleY(1.3);
+  background: #bfffc7;
+}
+.login-tittle {
+  color: #50b25b;
+}
+/*-----------Footer-----------*/
+footer {
+  background-color: #1f1f1f;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+.footLink {
+  color: #50b25b;
+  text-decoration: none;
+}
+.footLink:hover {
+  color: #bfffc7;
+}
+.title1 {
+  margin: 0 auto;
+  color: #50b25b;
+  text-align: center;
+}
+/*-----------News-----------*/
+.newsCard {
+  width: 18rem;
+}
+
+.carouselStyle {
+  max-height: 600px;
+}
+.carousel-item {
+  overflow: hidden;
+  height: 600px;
+}
+.newsTitle {
+  margin: 0 auto;
+  color: #50b25b;
+  text-align: center;
+}
